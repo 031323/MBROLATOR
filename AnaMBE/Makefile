@@ -23,7 +23,7 @@ CFLAGS=
 CFLAGS += -O6
 #CFLAGS += -DLITTLE_ENDIAN
 #CFLAGS += -DBIG_ENDIAN
-#CFLAGS += -m32
+CFLAGS += -m32
 
 ANAF0SRCS = anaf0.cpp soundfil.cpp pitchana.cpp mbefunc.cpp datatype.cpp func.cpp
 MBESRCS = complex.cpp signalpr.cpp mbe.cpp soundfil.cpp pitchana.cpp mbefunc.cpp datatype.cpp func.cpp anambe.cpp

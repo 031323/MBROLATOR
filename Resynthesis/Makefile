@@ -17,6 +17,7 @@ CFLAGS += -O5
 # CFLAGS += -Wall
 #CFLAGS += -DLITTLE_ENDIAN
 #CFLAGS += -DBIG_ENDIAN
+CFLAGS += -m32
 
 all: database_build resynth resynth_debug resynth_female resynth_resample16_8 resynth_resample16_11
 
